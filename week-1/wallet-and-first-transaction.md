@@ -16,6 +16,12 @@
 
 通过这个步骤，我理解了钱包在 Web3 中不仅是“账户”，也是用户和区块链交互的入口。
 
+# Wallet Address
+
+```text
+0x8A7CCcb93038d6093B198306F66128b5d19fA6D2
+```
+
 ## 2. 连接 Monad Testnet
 
 创建钱包后，我将钱包连接到 Monad Testnet。
