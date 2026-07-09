@@ -58,6 +58,7 @@ Transaction Hash:
 
 ```text
 0x7c8a9026a2bf4ebd6c19a1eb31aa6137271479a4a30c5df8cb516a65ef927fa8
+```
 
 https://testnet.monadvision.com/tx/0x7c8a9026a2bf4ebd6c19a1eb31aa6137271479a4a30c5df8cb516a65ef927fa8
 我使用课程钱包在 Monad Testnet 上完成了一笔测试网转账，从Account 1 转了1 MON 到 Account 2
