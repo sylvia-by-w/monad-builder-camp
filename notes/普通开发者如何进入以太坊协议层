@@ -1,0 +1,31 @@
+# 第二课:JackCC(EPF7 Fellow)分享——普通开发者如何进入以太坊协议层
+
+## EPF 是什么
+Ethereum Protocol Fellowship,面向想参与核心协议/客户端/规格/研究的开发者的训练场。不是智能合约训练营,不是手把手课堂,而是学习+研究+提案+交付的真实开源工作预演。考核看:能否持续学习、能否描述清楚问题、能否做出可验证贡献。
+
+## EPF7 时间线(6-11月,5个月)
+Phase 0 准备(补基础)→ Phase 1 定方向(topic of interest)→ Phase 2 成项目(project proposal)→ Phase 3 做交付(每周更新)→ End 展示。
+
+核心工作方式:学习(自补基础)、写作(公开周报)、讨论(standup/office hours/PR)、交付(roadmap+deliverables),没人替你学,但有人帮你校准方向。
+
+## 学习路径(三阶段)
+
+1. **先建"地图"**:理解账户/交易/gas、执行层EL(EVM、state、block execution)、共识层CL(validator、slot、epoch、finality)、节点与网络,不必先钻SSZ或EIP。
+2. **再进协议资料**:EPF Wiki/study.epf.wiki → 官方specs(小段读)→ 客户端仓库(只看一个模块)→ 用中文整理笔记再补英文术语。
+3. **选一个小方向深入**(能持续4-8周):规格测试(execution-specs/consensus-specs)、客户端实现(Reth/Geth/Lighthouse/Grandine)、数据证明(SSZ/Merkle/EIP研究)。建议先选"能跑、能读、能解释"的小方向,而非直接追最大的EIP。
+
+## 新人4周启动路线
+- Week1 画地图(用EPF Wiki建立基本图)
+- Week2 跑起来(跑本地工具/测试/轻量devnet,记录命令问题)
+- Week3 读进去(选仓库读一个issue/PR/spec片段)
+- Week4 公开输出(写笔记、issue comment或小PR)
+
+## 何时开始贡献
+不必等懂完协议,能复现/描述/缩小一个问题就可以开始:
+整理资料(修wiki、补术语表)→ 复现问题(写清环境命令输出)→ 参与讨论(问具体问题)→ 提交小PR(文档/测试/小修复)→ 形成项目(多个小问题收束成proposal)。
+
+## 选项目建议
+先选"问题域"再选issue——依赖单个issue不稳(一旦被别人合并项目就没了),更稳的做法是围绕一个持续存在的问题域(如"测试可靠性"、某客户端模块),issue只是证据,PR是阶段性交付。
+
+## 收尾三个词
+先入门,能复现,再贡献。
